@@ -1,0 +1,30 @@
+/* xxl condition */
+@media(min-width:1400px;){
+
+}
+
+/* xl condition */
+@media(min-width:1200px;) and (max-width: 1399px;) {}
+
+
+/* lg condition */
+@media(min-width:992px;) and (max-width: 1199px;) {}
+
+/* md condition */
+@media(min-width:768px;) and (max-width: 991px;) {
+
+    .prefooter-head{
+        display: none;
+
+    }
+    .prefooter-main-con{
+        display: none;
+    }
+}
+
+/* md condition */
+@media(min-width:576px;) and (max-width: 767px;) {}
+
+
+/* md condition */
+@media(max-width:575px;) {}
